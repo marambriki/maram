@@ -11,7 +11,6 @@ use function Symfony\Component\String\u;
 class VinylController extends AbstractController
 {
     public function __construct(
-        private bool $isDebug
     )
     {}
 
